@@ -1,0 +1,20 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  .logo{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background: #0c54f7;
+    width: 9rem;
+    height: 2.5rem;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .workTogther{
+    text-decoration: none;
+    color: #658ed3;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}

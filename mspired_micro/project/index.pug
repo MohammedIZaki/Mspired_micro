@@ -1,0 +1,76 @@
+include includes/vars
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Mspired
+    include includes/styles
+  body.body
+    div.bars
+      span.barOne 
+      span.barTwo
+      span.barThree
+    nav.menu
+      ul.menu-list
+        li.menu-list_item 
+          a(href="#" class="nav-item nav-s") Services
+        li.menu-list_item
+          a(href="values.html" class="nav-item nav-v") Values
+        li.menu-list_item
+          a(href="works.html" class="nav-item nav-w") Works
+        li.menu-list_item
+          a(href="contacts.html" class="nav-item nav-c") Contacts
+
+    .container
+      .row
+        .col-lg-12
+          main.mainContent
+            header.head
+                a.logo(href='index.html') mspired
+                a.workTogther(href='#') Let's work together!
+            block maincontent
+              section.main 
+                p We &nbsp are &nbsp #[a(href='#') <i class="fas fa-quote-right"></i> People First <i class="fas fa-quote-right"></i> ] &nbsp digital &nbsp agency &nbsp born &nbsp 10 &nbsp years ago &nbsp with &nbsp a &nbsp focus &nbsp on &nbsp modern &nbsp web &nbsp technologies
+              
+                .find
+                  a(href='#') <i class="fas fa-long-arrow-alt-left"></i> find out more!
+            footer.foot
+              p.ourClient out clients
+              .clinet-slider
+                .clients
+                  -for(var x = 0; x <= 12; x++)
+                    div 
+                      img(src="https://picsum.photos/100/50", alt="placeholder")
+
+    <svg class="grid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1087.5 2000">
+      <g id="GRID" transform="translate(-139)">
+        <line class="linetop" id="Line_8" data-name="Line 8" y2="2000" transform="translate(139.5 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_9" data-name="Line 9" y2="2000" transform="translate(203 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_10" data-name="Line 10" y2="2000" transform="translate(233 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_11" data-name="Line 11" y2="2000" transform="translate(296 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_12" data-name="Line 12" y2="2000" transform="translate(326 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_13" data-name="Line 13" y2="2000" transform="translate(389 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_14" data-name="Line 14" y2="2000" transform="translate(419 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_15" data-name="Line 15" y2="2000" transform="translate(482 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_16" data-name="Line 16" y2="2000" transform="translate(512 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_17" data-name="Line 17" y2="2000" transform="translate(575 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_18" data-name="Line 18" y2="2000" transform="translate(605 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_19" data-name="Line 19" y2="2000" transform="translate(668 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_20" data-name="Line 20" y2="2000" transform="translate(698 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_21" data-name="Line 21" y2="2000" transform="translate(761 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_22" data-name="Line 22" y2="2000" transform="translate(791 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_23" data-name="Line 23" y2="2000" transform="translate(854 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_24" data-name="Line 24" y2="2000" transform="translate(884 0.321)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_25" data-name="Line 25" y2="2000" transform="translate(947)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_26" data-name="Line 26" y2="2000" transform="translate(977)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_27" data-name="Line 27" y2="2000" transform="translate(1040)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_28" data-name="Line 28" y2="2000" transform="translate(1070)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_29" data-name="Line 29" y2="2000" transform="translate(1133)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_30" data-name="Line 30" y2="2000" transform="translate(1163)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+        <line class="linetop" id="Line_31" data-name="Line 31" y2="2000" transform="translate(1226)" fill="none" stroke="#e2f4f4" stroke-width="1"/>
+      </g>
+    </svg>     
+  //- scripts
+  include includes/scripts
